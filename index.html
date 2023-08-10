@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iPhone Calculator App</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link type="image/x-icon" href="component.html" />
+    <link
+      class="high"
+      rel="shortcut icon"
+      href="./media/unnamed (4).jpg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <section>
+      <div id="calCulator">
+        <!-- --------------------------------------------- -->
+        <!-- Result display starts here -->
+        <div id="reSult">
+          <div id="display"></div>
+        </div>
+        <!-- Result display ends here -->
+        <!-- --------------------------------------------- -->
+        <div id="buTtons">
+          <!-- first column begins here -->
+          <button class="button" id="mark" onclick="reduce()">AC</button>
+          <button class="button" id="mark">-/+</button>
+          <button class="button" id="mark" onclick="percentage()">%</button>
+          <button class="button" id="marker" onclick="divide()">/</button>
+          <!-- first column ends here -->
+          <!-- ----------------------------------------------------- -->
+          <!-- second column begins here -->
+          <button class="button" id="blu" onclick="btnclicked(7)">7</button>
+          <button class="button" id="blu" onclick="btnclicked(8)">8</button>
+          <button class="button" id="blu" onclick="btnclicked(9)">9</button>
+          <button class="button" id="marker" onclick="multiply()">x</button>
+          <!--second column ends here  -->
+          <!-- ----------------------------------------------------- -->
+          <!-- third column begins here -->
+          <button class="button" id="blu" onclick="btnclicked(4)">4</button>
+          <button class="button" id="blu" onclick="btnclicked(5)">5</button>
+          <button class="button" id="blu" onclick="btnclicked(6)">6</button>
+          <button class="button" id="marker" onclick="subtract()">-</button>
+          <!-- third column ends here -->
+          <!-- ----------------------------------------------------- -->
+          <!-- fourth column begins here -->
+          <button class="button" id="blu" onclick="btnclicked(1)">1</button>
+          <button class="button" id="blu" onclick="btnclicked(2)">2</button>
+          <button class="button" id="blu" onclick="btnclicked(3)">3</button>
+          <button class="button" id="marker" onclick="add()">+</button>
+          <!--fourth column ends here  -->
+          <!-- ----------------------------------------------------- -->
+          <!-- fifth column begins here -->
+
+          <!-- fifth column ends here -->
+          <!-- ----------------------------------------------------- -->
+        </div>
+        <div id="yellow">
+          <button class="button" id="blu dew" id onclick="btnclicked(0)">
+            0
+          </button>
+          <button class="button" id="blu" onclick="btnclicked('.')">.</button>
+          <button class="button" id="marker" onclick="equalTo()">=</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="./JS/main.js">
+      i
+    </script>
+  </body>
+</html>
